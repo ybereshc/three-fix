@@ -6,6 +6,10 @@
   "main": "./build/three.js",
   "module": "./build/three.module.js",
   "exports": {
+    ".": {
+      "import": "./build/three.module.js",
+      "require": "./build/three.module.js"
+    },
     "./examples/fonts/*": "./examples/fonts/*",
     "./examples/jsm/*": "./examples/jsm/*",
     "./src/*": "./src/*"
